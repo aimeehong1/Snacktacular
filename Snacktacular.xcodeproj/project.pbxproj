@@ -7,35 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		900A32242CD930DA00754087 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900A321C2CD930DA00754087 /* Preview Assets.xcassets */; };
+		900A32252CD930DA00754087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900A321E2CD930DA00754087 /* Assets.xcassets */; };
+		900A32262CD930DA00754087 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 900A321F2CD930DA00754087 /* GoogleService-Info.plist */; };
+		900A32282CD930DA00754087 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A32212CD930DA00754087 /* LoginView.swift */; };
+		900A32292CD930DA00754087 /* SnacktacularApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A32222CD930DA00754087 /* SnacktacularApp.swift */; };
+		900A322B2CD9313200754087 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A322A2CD9313200754087 /* ListView.swift */; };
 		90DA62642CD4938500863142 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 90DA62632CD4938500863142 /* FirebaseAuth */; };
 		90DA62662CD4938500863142 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 90DA62652CD4938500863142 /* FirebaseFirestore */; };
 		90DA62682CD4938500863142 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 90DA62672CD4938500863142 /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		900A321C2CD930DA00754087 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		900A321E2CD930DA00754087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		900A321F2CD930DA00754087 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		900A32202CD930DA00754087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900A32212CD930DA00754087 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		900A32222CD930DA00754087 /* SnacktacularApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnacktacularApp.swift; sourceTree = "<group>"; };
+		900A322A2CD9313200754087 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		90DA624F2CD4900000863142 /* Snacktacular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snacktacular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		90DA62612CD4906D00863142 /* Exceptions for "Snacktacular" folder in "Snacktacular" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 90DA624E2CD4900000863142 /* Snacktacular */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		90DA62512CD4900000863142 /* Snacktacular */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				90DA62612CD4906D00863142 /* Exceptions for "Snacktacular" folder in "Snacktacular" target */,
-			);
-			path = Snacktacular;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		90DA624C2CD4900000863142 /* Frameworks */ = {
@@ -51,10 +43,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		900A321D2CD930DA00754087 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				900A321C2CD930DA00754087 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		900A32232CD930DA00754087 /* Snacktacular */ = {
+			isa = PBXGroup;
+			children = (
+				900A32222CD930DA00754087 /* SnacktacularApp.swift */,
+				900A32212CD930DA00754087 /* LoginView.swift */,
+				900A322A2CD9313200754087 /* ListView.swift */,
+				900A321E2CD930DA00754087 /* Assets.xcassets */,
+				900A321F2CD930DA00754087 /* GoogleService-Info.plist */,
+				900A32202CD930DA00754087 /* Info.plist */,
+				900A321D2CD930DA00754087 /* Preview Content */,
+			);
+			path = Snacktacular;
+			sourceTree = "<group>";
+		};
 		90DA62462CD4900000863142 = {
 			isa = PBXGroup;
 			children = (
-				90DA62512CD4900000863142 /* Snacktacular */,
+				900A32232CD930DA00754087 /* Snacktacular */,
 				90DA62502CD4900000863142 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,9 +95,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				90DA62512CD4900000863142 /* Snacktacular */,
 			);
 			name = Snacktacular;
 			packageProductDependencies = (
@@ -137,6 +148,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				900A32242CD930DA00754087 /* Preview Assets.xcassets in Resources */,
+				900A32252CD930DA00754087 /* Assets.xcassets in Resources */,
+				900A32262CD930DA00754087 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				900A32282CD930DA00754087 /* LoginView.swift in Sources */,
+				900A32292CD930DA00754087 /* SnacktacularApp.swift in Sources */,
+				900A322B2CD9313200754087 /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
